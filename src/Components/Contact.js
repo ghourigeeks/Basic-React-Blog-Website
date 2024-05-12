@@ -13,21 +13,24 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { name, email, phone, message } = formData;
-    if (!name || !email || !phone || !message) {
-      if (!name) {
-        toast.error('Name is required');
-      }
-      if (!email) {
-        toast.error('Email is required');
-      }
-      if (!phone) {
-        toast.error('Phone number is required');
-      }
-      if (!message) {
-        toast.error('Message is required');
-      }
+  
+    if (!name) {
+      toast.error('Name is required');
       return;
     }
+    if (!email) {
+      toast.error('Email is required');
+      return;
+    }
+    if (!phone) {
+      toast.error('Phone number is required');
+      return;
+    }
+    if (!message) {
+      toast.error('Message is required');
+      return;
+    }
+  
     // Reset form fields after successful submission
     setFormData({
       name: "",
