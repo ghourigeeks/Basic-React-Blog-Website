@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm install react-router-dom firebase react-toastify`
+### `npm install react-router-dom firebase react-toastify axios`
 
 ### `npm start`
 
