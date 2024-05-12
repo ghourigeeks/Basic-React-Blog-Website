@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import '../styles.css';
 
 
@@ -18,15 +18,15 @@ const pageContent = {
           <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
           <h2 className="section-heading">Reaching for the Stars</h2>
           <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-          <a href="#!"><img className="img-fluid" src="../assets/img/post-sample-image.jpg" alt="..." /></a>
+          <Link href="#!"><img className="img-fluid" src="../assets/img/post-sample-image.jpg" alt="..." /></Link>
           <span className="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
           <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
           <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
           <p>
               Placeholder text by
-              <a href="http://spaceipsum.com/">Space Ipsum</a>
+              <Link href="http://spaceipsum.com/">Space Ipsum</Link>
               &middot; Images by
-              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+              <Link href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</Link>
           </p>
       </div>
     ),
@@ -44,15 +44,15 @@ const pageContent = {
           <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
           <h2 className="section-heading">Reaching for the Stars</h2>
           <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-          <a href="#!"><img className="img-fluid" src="../assets/img/post-sample-image.jpg" alt="..." /></a>
+          <Link href="#!"><img className="img-fluid" src="../assets/img/post-sample-image.jpg" alt="..." /></Link>
           <span className="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
           <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
           <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
           <p>
               Placeholder text by
-              <a href="http://spaceipsum.com/">Space Ipsum</a>
+              <Link href="http://spaceipsum.com/">Space Ipsum</Link>
               &middot; Images by
-              <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+              <Link href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</Link>
           </p>
           </div>
     ),
